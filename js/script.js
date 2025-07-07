@@ -14,3 +14,11 @@ for (let i = 0; i < emailList.length; i++) {
   }
 
 }
+
+//effettuo il controllo sul check della email
+if (emailCheck) {
+  console.log(`la mail è stata trovata`);
+}
+else {
+  console.log(`la mail non è stata trovata`);
+}
